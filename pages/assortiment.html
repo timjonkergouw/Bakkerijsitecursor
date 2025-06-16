@@ -25,9 +25,27 @@
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="assortiment.html" class="active">Ons Assortiment</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="cart-icon" data-count="0">🛒</div>
+                </li>
             </ul>
         </nav>
     </header>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Winkelwagen</h2>
+            <button class="close-cart">×</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            Totaal: €0.00
+        </div>
+        <a href="afrekenen.html" class="checkout-btn">Ga naar betalen</a>
+    </div>
 
     <main>
         <section class="assortment-hero">
@@ -41,24 +59,27 @@
             <div class="container">
                 <h2>Brood</h2>
                 <div class="product-grid">
-                    <div class="product-card">
+                    <div class="product-card" data-id="worstenbrood">
                         <img src="../images/Worstenbroord.webp" alt="Worstenbrood">
                         <h3>Worstenbrood</h3>
                         <p> Heerlijk brood met een knapperige korst en een rijke smaak.
                         </p>
                         <span class="price">€3,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="volkorenbrood">
                         <img src="../images/Volkorenbrood.png" alt="Volkorenbrood">
                         <h3>Volkorenbrood</h3>
                         <p>100% volkoren met een rijke smaak en volle textuur.</p>
                         <span class="price">€2,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="stokbrood">
                         <img src="../images/Witbrood.png" alt="Stokbrood">
                         <h3>Stokbrood</h3>
                         <p>Knapperig Frans stokbrood, dagelijks vers gebakken.</p>
                         <span class="price">€2,25</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
                 </div>
             </div>
@@ -68,23 +89,26 @@
             <div class="container">
                 <h2>Gebak</h2>
                 <div class="product-grid">
-                    <div class="product-card">
+                    <div class="product-card" data-id="bossche-bol">
                         <img src="../images/Klein gebakje.png" alt="Bossche Bollen">
                         <h3>Bossche Bollen</h3>
                         <p>Onze beroemde Bossche bollen met pure chocolade en verse slagroom.</p>
-                        <span class="price">€3,50 per stuk</span>
+                        <span class="price">€3,50</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="appeltaart">
                         <img src="../images/Taartje.png" alt="Appeltaart">
                         <h3>Appeltaart</h3>
                         <p>Traditionele appeltaart met verse appels en kaneel.</p>
                         <span class="price">€14,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="slagroomtaart">
                         <img src="../images/Taartje.png" alt="Slagroomtaart">
                         <h3>Slagroomtaart</h3>
                         <p>Luchtige taart met verse slagroom en fruit.</p>
                         <span class="price">€16,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
                 </div>
             </div>
@@ -94,23 +118,26 @@
             <div class="container">
                 <h2>Koekjes & Klein Gebak</h2>
                 <div class="product-grid">
-                    <div class="product-card">
+                    <div class="product-card" data-id="croissant">
                         <img src="../images/Klein gebakje.png" alt="Croissants">
                         <h3>Croissants</h3>
                         <p>Knapperige Franse croissants met roomboter.</p>
-                        <span class="price">€1,75 per stuk</span>
+                        <span class="price">€1,75</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="boterkoek">
                         <img src="../images/speculaas.png" alt="Boterkoekjes">
                         <h3>Boterkoekjes</h3>
                         <p>Traditionele boterkoekjes met amandelen.</p>
-                        <span class="price">€4,95 per 250g</span>
+                        <span class="price">€4,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
-                    <div class="product-card">
+                    <div class="product-card" data-id="koffiebroodje">
                         <img src="../images/Vers koekje.png" alt="Koffiebroodjes">
                         <h3>Koffiebroodjes</h3>
                         <p>Zoete broodjes met kaneel en rozijnen.</p>
-                        <span class="price">€1,95 per stuk</span>
+                        <span class="price">€1,95</span>
+                        <button class="add-to-cart">Voeg toe aan winkelwagen</button>
                     </div>
                 </div>
             </div>

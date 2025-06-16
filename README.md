@@ -1,29 +1,100 @@
-Bakkerijsitecursor
-Dit is een eenvoudige website voor een bakkerij, gemaakt met behulp van Cursor AI. De site bevat een startpagina, een pagina over het bedrijf en een contactpagina. Het ontwerp is eenvoudig en overzichtelijk, met warme kleuren en foto's van brood en gebak.
+# Bakkerij De Gouden Korst Website
 
-Inhoud van de map
-index.html – De hoofdpagina van de website.
+Een moderne website voor Bakkerij De Gouden Korst, een ambachtelijke bakkerij in Den Bosch. De website is gebouwd met HTML, CSS en JavaScript, zonder gebruik van externe frameworks.
 
-pages/ – Bevat andere pagina's zoals 'Over ons' en 'Contact'.
+## Functionaliteiten
 
-css/ – De opmaakbestanden (stijl) van de website.
+### Homepage
+- Responsive hero sectie met afbeelding van de bakkerij
+- Informatie over de bakkerij
+- Overzicht van specialiteiten
+- Contactgegevens en openingstijden
 
-js/ – JavaScript-bestanden voor extra functies.
+### Ons Assortiment
+- Overzicht van alle producten, onderverdeeld in categorieën:
+  - Brood
+  - Gebak
+  - Koekjes & Klein Gebak
+- Elk product heeft:
+  - Afbeelding
+  - Naam
+  - Beschrijving
+  - Prijs
+  - "Voeg toe aan winkelwagen" knop
 
-images/ – Afbeeldingen die op de website worden gebruikt.
+### Winkelwagen Systeem
+- Winkelwagen icoon in de navigatiebalk
+- Zijbalk met winkelwagen inhoud
+- Mogelijkheid om:
+  - Producten toe te voegen
+  - Aantal aan te passen
+  - Producten te verwijderen
+  - Totaalbedrag te zien
+- Winkelwagen data wordt opgeslagen in localStorage
 
-Hoe te gebruiken
-Download of kopieer deze map naar je computer.
+### Afrekenen
+- Overzicht van bestelling
+- Formulier voor:
+  - Persoonlijke gegevens
+  - Bezorgadres
+  - Betaalmethode (iDEAL, Creditcard, PayPal)
+- Bevestigingsbericht na bestelling
 
-Open het bestand index.html in je browser om de website te bekijken.
+## Technische Details
 
-Je kunt de bestanden aanpassen in een teksteditor zoals VS Code.
+### Bestandsstructuur
+```
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── cart.js
+├── images/
+│   ├── bakkerij van buiten.jpg
+│   ├── bakker.png
+│   └── [andere productafbeeldingen]
+└── pages/
+    ├── assortiment.html
+    ├── afrekenen.html
+    └── contact.html
+```
 
-Over Cursor AI
-Cursor AI is een slimme tool waarmee je websites kunt maken door simpelweg te beschrijven wat je wilt. Je geeft een opdracht (prompt), en Cursor AI genereert de bijbehorende code. Dit project is gemaakt als oefening om te leren werken met Cursor AI.
-daily.dev
-+1
-anthemcreation.com
-+1
+### Gebruikte Technologieën
+- HTML5
+- CSS3 (met CSS Grid en Flexbox)
+- Vanilla JavaScript
+- LocalStorage voor winkelwagen data
 
-Laat het me weten als je hulp nodig hebt bij het aanpassen van de website of het schrijven van een prompt!
+### Responsive Design
+- Mobiel-vriendelijk
+- Aanpasbaar aan verschillende schermformaten
+- Geoptimaliseerde navigatie voor mobiele apparaten
+
+## Installatie en Gebruik
+
+1. Clone de repository:
+```bash
+git clone [repository-url]
+```
+
+2. Open de website:
+- Open `index.html` in een webbrowser
+- Of gebruik een lokale server
+
+## Browser Ondersteuning
+- Chrome (laatste versie)
+- Firefox (laatste versie)
+- Safari (laatste versie)
+- Edge (laatste versie)
+
+## Toekomstige Verbeteringen
+- [ ] Toevoegen van een zoekfunctie
+- [ ] Implementeren van een productfilter
+- [ ] Toevoegen van een klantenaccount systeem
+- [ ] Integratie met een betaalsysteem
+- [ ] Toevoegen van een bestelgeschiedenis
+
+## Contact
+Bakkerij De Gouden Korst
+- Adres: Achter de Sint-Jan 15, 5211 JH Den Bosch
+- Openingstijden: Ma t/m Vr: 07:00 - 18:00, Za: 07:00 - 16:00, Zo: Gesloten
